@@ -1,19 +1,94 @@
 @import './scss/_variables';
 
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;   
-}
-
 html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: sans-serif;
+    background: $color-bg;
+    color: $color-white;
+    list-style: 1.7;
+
+}
+
 .text-light {
-    color: $primary-color-variant;
+    color: $color-light;
+}
+
+.container {
+    width: $container-width-lg;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    margin-top: 8rem;
+}
+
+
+a {
+    color: $color-primary;
+    transition: $transition;
+
+    &:hover {
+        color: $color-white;
+    }
+}
+
+
+.btn {
+    width: max-contact;
+    display: inline-block;
+    color: $color-primary;
+    padding: .75rem 1.2rem;
+    border-radius: .4rem;
+    cursor: pointer;
+    border: .0625rem solid $color-primary;
+    transition: $transition;
+
+    &:hover {
+      background: $color-white;
+      color: $color-bg;
+      border-color: transparent;  
+    }
+    &-primary {
+        background: $color-primary;
+        color: $color-bg;
+    }
+}
+
+/* Media Queries for medium devices */
+@media screen and (max-width: 1024px) {
+    .header {
+       width: $container-width-md;
+    }
+
+    section {
+        margin-top: 6rem;
+    }
+}
+
+/* Media Queries for small devices */
+@media screen and (max-width:  600px) {
+    .container {
+       width: $container-width-sm;
+    }
+
+    section {
+        .h2 {
+            margin-top: 2rem;
+        }
+    }
 }
