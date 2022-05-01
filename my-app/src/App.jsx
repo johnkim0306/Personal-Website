@@ -1,10 +1,12 @@
 import React from 'react'
+import './App.scss'
 
 import {About, Contact, Experience, Header, Footer, Nav } from './components';
 
 const App = () => {
     return (
-        <div>
+        
+        <div className="app">
             <Header />
             <Nav />
             <About />
