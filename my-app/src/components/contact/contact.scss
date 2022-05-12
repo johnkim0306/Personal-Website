@@ -1,10 +1,19 @@
 @import "../../scss/_variables";
 
+#contact {
+    margin-top: 1rem;
+    width: 100%;
+    
+    h2,h5 {
+        text-align: center;
+    }
+}
 .container.contact__container {
-    width: 59%;
+    width: 90%;
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
+    padding-top: 3rem;
 }
 
 .contact__options {

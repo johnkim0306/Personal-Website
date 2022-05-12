@@ -1,12 +1,12 @@
 import React from 'react'
 import './contact.scss'
+import { AppWrap } from '../../wrapper/';
 import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
 
 const Contact = () => {
     return (
-        <div>
             <section id='contact'>
                 <h5>Get in Touch</h5>
                 <h2>Contact Me</h2>
@@ -37,15 +37,10 @@ const Contact = () => {
                         <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
                         <button type='submit' className='btn btn-primary'> Send Message</button>
                     </form>
-                        article
-
-                    contact
-
-
                 </div>
             </section>
-        </div>
     )
 }
 
-export default Contact
+//export default Contact
+export default AppWrap(Contact, 'contact', 'contact');
