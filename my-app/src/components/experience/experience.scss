@@ -1,0 +1,53 @@
+@import "../../scss/_variables";
+
+#experience {
+    margin-top: .3125rem;
+    width: 100%;
+    
+    h2,h3,h5 {
+        text-align: start;
+    }
+    p {
+        font-size: .75rem;
+    }
+}
+ul{
+    list-style-type: circle;
+}
+
+li {
+    margin-left: 10px;
+    list-style-type: circle;
+}
+
+.container .experience__container {
+    width: 90%;
+    margin: 1rem auto 0 auto;
+}
+
+.jobs {
+    height: 6.25rem;
+    margin: 2rem auto 0 auto;
+    display: grid;
+    grid-gap: 2rem;
+
+    &__job {
+        background: lighten($color-background-variant, $amount: 10%);
+        padding: .75rem 1.5rem;
+        border-bottom: 5px solid #e9e4e4;
+    }
+
+    h2, h3 {
+        margin: .25rem 0;
+    }
+    h6 {
+        margin: .3rem 0;
+    }
+
+    &__job--header{
+        display: grid;
+        grid-template-columns: 80% 1fr;
+        align-items: center;
+    }
+}
+
