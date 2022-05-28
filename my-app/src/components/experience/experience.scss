@@ -3,6 +3,8 @@
 #experience {
     margin-top: .3125rem;
     width: 100%;
+    height: fit-content;
+    background: red;
     
     h2,h3,h5 {
         text-align: start;
@@ -12,6 +14,7 @@
     }
 }
 ul{
+    padding-top: 1rem;
     list-style-type: circle;
 }
 
@@ -26,7 +29,6 @@ li {
 }
 
 .jobs {
-    height: 6.25rem;
     margin: 2rem auto 0 auto;
     display: grid;
     grid-gap: 2rem;
