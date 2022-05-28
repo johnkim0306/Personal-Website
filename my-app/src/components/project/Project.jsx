@@ -62,8 +62,8 @@ const Project = () => {
                                         <div className="rightContainer">
                                             <div className="imgContainer">
                                                 <img src={mobile}></img>
+                                                <span>Project</span>
                                             </div>
-                                            <span>Project</span>
                                             <ul>
                                                 <li>Single-Page application react was used to create an application and renders components when data changes. Material-UI was used to construct the user interface.</li>
                                                 <li>Used a javascript library Leaflet to implement a map with a clustering effect.</li>
