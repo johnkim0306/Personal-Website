@@ -79,7 +79,7 @@ const Project = () => {
                                             About
                                         </div>
                                         <div className="item__footer--value">
-                                            <p>The app captures the dynamics of coronavirus around the world it tracks traditional measures such as positive tests, recovered, deaths.</p>
+                                            <p>The app captures the dynamics of coronavirus around the world. It tracks traditional measures such as positive tests, recovered, and deaths.</p>
                                         </div>
                                     </div>
                                     <div className="item__footer-description">
