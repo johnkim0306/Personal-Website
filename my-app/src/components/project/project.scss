@@ -10,22 +10,6 @@
   //align-items: center;
   justify-content: center;
   position: relative;
-}
-
-.arrow {
-  height: 50px;
-  position: absolute;
-  cursor: pointer;
-
-  &.left {
-    left: 5rem;
-    transform: rotateY(180deg);
-  }
-
-  &.right {
-    right: 5rem;
-  }
-}
 
 .slider {
   height: 100%;
@@ -33,10 +17,27 @@
   display: flex;
 }
 
+}
+
 .project__container {
   display: flex;
   justify-content: center;
   background-color: #1d809f;
+
+  .arrow {
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+  
+    &.left {
+      left: 5rem;
+      transform: rotateY(180deg);
+    }
+  
+    &.right {
+      right: 5rem;
+    }
+  }
 }
 
 .item {
