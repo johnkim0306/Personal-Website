@@ -1,9 +1,9 @@
 import React from 'react'
-import './topbar.scss'
+import './nav.scss'
 
-export function Toolbar({ menuOpen, setMenuOpen }) {
+export function Nav({ menuOpen, setMenuOpen }) {
     return (
-        <div className={"topbar " + (menuOpen && "active")}>
+        <div className={"nav " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
                     <a href="#header" className="logo"> John's portfolio</a>
@@ -35,4 +35,4 @@ export function Toolbar({ menuOpen, setMenuOpen }) {
     )
 }
 
-export default Toolbar
+export default Nav

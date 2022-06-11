@@ -7,7 +7,7 @@ import arrow from "../../assets/arrow.png";
 //my-app/src/assets/mobile.png
 import "./work.scss";
 import { FaArrowCircleRight, FaArrowCircleLeft } from "react-icons/fa";
-import Experience from "../experience/Experience";
+//import Experience from "../experience/Experience";
 
 const Work = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
