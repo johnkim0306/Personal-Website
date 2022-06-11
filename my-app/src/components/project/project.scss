@@ -22,7 +22,7 @@
 .project__container {
   display: flex;
   justify-content: center;
-  background-color: #1d809f;
+  //background-color: #1d809f;
 
   .arrow {
     height: 50px;
@@ -47,6 +47,7 @@
   border-radius: 1.25rem;
   display: flex;
   flex-direction: column;
+  background: #eaedee;
 
   &__header {
     display: flex;
@@ -93,6 +94,7 @@
 
           img {
             width: 1.5625rem;
+            margin-right: 1rem;
           }
         }
 

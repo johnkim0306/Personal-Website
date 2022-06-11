@@ -1,17 +1,19 @@
 import React from 'react'
 import './App.scss'
-
-import {About, Contact, Experience, Work, Header, Project, Footer, Nav } from './components';
+import { useState } from "react";
+import {About, Contact, Experience, Work, Menu, Header, Project, Footer, Topbar } from './components';
 
 const App = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+
     return (
-        
         <div className="app">
+            <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+            <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
             <Header />
-            <Nav />
             <About />
-            <Project />
             <Work />
+            <Project />
             <Contact />
             <Footer />
         </div>

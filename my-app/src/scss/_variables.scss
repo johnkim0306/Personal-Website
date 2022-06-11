@@ -25,3 +25,11 @@ $transition: all 0.3s ease-in-out;
 $container-width-lg: 75%;
 $container-width-md: 86%;
 $container-width-sm: 90%;
+
+$width: 600px;
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}

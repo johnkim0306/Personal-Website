@@ -2,13 +2,14 @@
 
 .works {
     position: relative;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: crimson;
     width: 100%;
+    padding: 3rem 0rem;
 
   .slider {
     height: 100%;
@@ -48,7 +49,6 @@
 .work__container {
   display: flex;
   position: relative;
-  align-items: center;
   justify-content: center;
   background: antiquewhite;
 }
@@ -195,6 +195,6 @@
     background: #f1f1f1;
 }
 
-.dot .active {
+.dot.active {
     background: rgb(32, 32, 32);
 }
