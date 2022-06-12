@@ -6,22 +6,12 @@ export function Nav({ menuOpen, setMenuOpen }) {
         <div className={"nav " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                    <a href="#header" className="logo"> John's portfolio</a>
-                    <div className="itemContainer">
-                        <a href="#header">Home</a>
-                    </div>
-                    <div className="itemContainer">
-                        <a href="#about">About</a>
-                    </div>
-                    <div className="itemContainer">
-                        <a href="#work">Career</a>
-                    </div>
-                    <div className="itemContainer">
-                        <a href="#project">Projects</a>
-                    </div>
-                    <div className="itemContainer">
-                        <a href="#contact">Contact</a>
-                    </div>
+                    <a href="#home" className="logo"> John's portfolio</a>
+                    {['home', 'about', 'work', 'project', 'contact'].map((item) =>
+                        <div key={`link-${item}`} className="itemContainer">
+                            <a href={`#${item}`}>{item}</a>
+                        </div>
+                    )}
                 </div>
                 <div className="right">
                     <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>

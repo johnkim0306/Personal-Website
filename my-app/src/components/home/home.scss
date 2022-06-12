@@ -1,6 +1,6 @@
 @import '../../scss/_variables';
 
-.header__container#header {
+.home__container#home {
     text-align: center;
     position: relative;
 
@@ -68,7 +68,7 @@
 }
 
 .container {
-    &.header__container {
+    &.home__container {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -77,17 +77,17 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .header {
+    .home {
         height: 68vh;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .header {
+    .home {
         height: 100vh;
     }
 
-    .header__socials,
+    .home__socials,
     .scroll__down {
         display: none;
     }

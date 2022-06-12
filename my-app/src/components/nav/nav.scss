@@ -41,6 +41,10 @@
           @include mobile{
             display: none;
           }
+
+          a {
+            text-transform: capitalize;
+          }
   
           .icon {
             font-size: 1.125rem;

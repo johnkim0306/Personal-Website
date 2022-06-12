@@ -1,24 +1,17 @@
 import React from 'react'
-import './header.scss'
-import CTA from './CTA'
-import HeaderSocials from './HeaderSocials'
+import './home.scss'
 import Me from '../../assets/logo.png'
 import Background from '../../assets/logo.png'
 
-import { AppWrap } from '../../wrapper/';
+import { AppWrap } from '../../wrapper';
 
-const Header = () => {
+const Home = () => {
     return (
-            <div className="container header__container">
+            <div className="container home__container">
                 <h5>Hello I'm </h5>
                 <h1>John Kim</h1>
                 <h5 className="text-light"> Fullstack Developer</h5>
                 <hr/>
-                {/* 
-                <CTA />
-                <HeaderSocials />
-                */}
-
                 <div className="me">
                     <img src={Me} alt="me" />
                 </div>
@@ -26,5 +19,4 @@ const Header = () => {
             </div>
     )
 }
-//export default Header;
-export default AppWrap(Header, 'header', 'header');
+export default AppWrap(Home, 'home', 'home');
