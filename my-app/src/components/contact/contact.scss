@@ -3,6 +3,7 @@
 #contact {
     margin-top: 3rem;
     width: 100%;
+    height: fit-content;
     
     h2,h5 {
         text-align: center;
@@ -10,6 +11,7 @@
 }
 .container.contact__container {
     width: 90%;
+    min-height: fit-content;
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
@@ -19,6 +21,7 @@
 .contact__options {
     display: flex;
     flex-direction: column;
+    height: fit-content;
 }
 
 .contact__option {
@@ -51,6 +54,7 @@ form {
     display: flex;
     flex-direction: column;
     gap: 2.2rem;
+    height: fit-content;
 
     input,textarea {
         width: 100%;
