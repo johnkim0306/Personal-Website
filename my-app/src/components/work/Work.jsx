@@ -52,10 +52,10 @@ const Work = () => {
         title: "University of Calgary",
         date: "2018",
         company: "Research Assistant",
-        desc1: "Initiated and coordinated a Text and Data Mining of large dataset extracted from mobile App Developement Teams using the program languages Java, Python, R-Language.",
+        desc1: "Initiated and coordinated a Text and Data Mining of large dataset extracted from mobile App Development Teams using the program languages Java, Python, R-Language.",
         desc2: "Planned and coordinated NLP Topic Modeling using Python and R-language.",
         desc3: "Improved methods by proposing LDA algorithms and Gibbs Sampling Option that ended up on the final research paper.",
-        desc4: "The paper got accepted and is published in the IEEE digital library.",
+        desc4: "The paper got accepted and published in the IEEE digital library.",
         img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
       },
   ];

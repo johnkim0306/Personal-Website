@@ -7,9 +7,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: crimson;
+    background-color: $color-primary;
     width: 100%;
     padding-bottom: 3rem;
+    margin-top: 1rem;
 
   .slider {
     height: 100%;
@@ -99,8 +100,13 @@
         font-size: 13px;
       }
       ul {
+          display: list-item;
           padding-top: .25rem;
-          list-style-type: circle;
+          //list-style-type: circle;
+      }
+      li {
+        list-style-type: circle;
+        display: list-item;
       }
       span {
         font-size: 12px;
