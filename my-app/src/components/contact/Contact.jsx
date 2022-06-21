@@ -42,5 +42,4 @@ const Contact = () => {
     )
 }
 
-//export default Contact
 export default AppWrap(Contact, 'contact', 'contact');

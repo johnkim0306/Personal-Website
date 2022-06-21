@@ -136,5 +136,4 @@ const Project = () => {
     )
 }
 
-//export default Project
 export default AppWrap(Project, 'project', 'project');

@@ -28,4 +28,3 @@ const Footer = () => {
 }
 
 export default Footer
-//export default AppWrap(Footer, 'footer', 'footer');

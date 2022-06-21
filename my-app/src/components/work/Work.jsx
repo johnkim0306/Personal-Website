@@ -3,11 +3,8 @@ import { useState } from "react";
 import { AppWrap } from "../../wrapper/";
 import mobile from "../../assets/mobile.png";
 import arrow from "../../assets/arrow.png";
-//import trackerImage from "../../assets/trackerImage.png";
-//my-app/src/assets/mobile.png
 import "./work.scss";
 import { FaArrowCircleRight, FaArrowCircleLeft } from "react-icons/fa";
-//import Experience from "../experience/Experience";
 
 const Work = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -132,5 +129,4 @@ const Work = () => {
   );
 };
 
-//export default Work
 export default AppWrap(Work, "work", "work");
