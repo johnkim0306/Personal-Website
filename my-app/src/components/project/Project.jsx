@@ -118,6 +118,7 @@ const Project = () => {
                             </div>                    
                     </div>
                 </div>
+                {/* 
                 <img
                     src={arrow}
                     className="arrow left"
@@ -129,7 +130,8 @@ const Project = () => {
                     className="arrow right"
                     alt=""
                     onClick={() => handleClick("right")}
-                />   
+                />       
+                */}
             </section>
     )
 }
