@@ -1,7 +1,7 @@
 .about {
     display: flex;
     width: 100%;
-    min-height: fit-content;
+    height: auto;
     display: flex;
     flex-direction: column;
 
@@ -63,5 +63,11 @@
     &__field {
         display: flex;
         flex-direction: column;
+
+        &--value {
+            @media screen and (max-width: 600px) {
+                word-break: break-all;
+            }
+        }
     }
 }
