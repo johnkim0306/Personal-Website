@@ -7,7 +7,8 @@ const SliderData = [
       date: "2021-Current",
       desc1: "Collaborated with product managers, designers, and technical leads in order to develop product features for media websites that reach 150M+ people each month",
       desc2: "Added functionality to a custom server-side component framework used in cross-platform websites.",
-      desc3: "Facilitating daily standups, retrospectives and planning meetings",
+      desc3: "Developed cross-browser compatible webpages using HTML, SASS, Javascript, and Vue & implement Responsive Web Design using custom media queries.",
+      desc4: "Used Grunt for task automation, JIRA for defect tracking and GIT for version control.",
       img: "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
     },
     {
