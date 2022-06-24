@@ -96,8 +96,12 @@
         }
 
         ul {
-            padding-top: .25rem;
-            list-style-type: circle;
+          display: list-item;
+          padding-top: .25rem;
+        }
+        li {
+          list-style-type: circle;
+          display: list-item;
         }
 
         p {

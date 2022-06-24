@@ -66,7 +66,7 @@ const Project = () => {
                                             </div>
                                             <ul>
                                                 <li>Single-Page application react was used to create an application and renders components when data changes. Material-UI was used to construct the user interface.</li>
-                                                <li>Used a javascript library Leaflet to implement a map with a clustering effect.</li>
+                                                <li>Used a JavaScript library Leaflet to implement a map with a clustering effect.</li>
                                                 <li>Interacted with a web API to fetch data and render it.</li>
                                                 <li>A naming methodology B.E.M was used to implement Atomic Design Principles with SASS.</li>
                                             </ul>
