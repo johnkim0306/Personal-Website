@@ -16,9 +16,10 @@
 
 }
 
-.project__container {
+.project__container.project__container {
   display: flex;
   justify-content: center;
+  width: 100%;
 
   .arrow {
     height: 50px;

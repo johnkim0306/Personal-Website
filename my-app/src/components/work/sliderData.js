@@ -36,7 +36,7 @@ const SliderData = [
     },
     {
         id: "4",
-        icon: "./assets/uofc.png",
+        icon: "./assets/uofc.jpeg",
         title: "University of Calgary",
         date: "2018",
         company: "Research Assistant",

@@ -13,22 +13,18 @@ html {
 
 body {
     font-family: sans-serif;
-    //background: $color-bg;
     background: #f4f4f7;
-    //color: $color-white;
     color: $color-black;
     list-style: 1.7;
 
 }
 
 .text-light {
-    //color: $color-light;
     color: $color-black-variant;
 }
 
 .container {
     width: $container-width-lg;
-    //min-height: 100vh;
     margin: 0 auto;
 }
 

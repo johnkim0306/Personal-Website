@@ -55,10 +55,7 @@
 }
 
 .slide {
-    opacity: 0;
-  //width: 100%;
-  //height: 100%;
-  //width: 100vw;
+  opacity: 0;
   position: absolute;
   background-color: white;
   border-radius: 1.25rem;
@@ -67,7 +64,7 @@
   justify-content: center;
 
   &--right {
-    flex: 8;
+    flex: 5;
     height: 100%;
     display: flex;
     align-items: center;
@@ -78,7 +75,6 @@
       height: 100%;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
 
       .imgContainer {
         width: 100px;
@@ -102,7 +98,6 @@
       ul {
           display: list-item;
           padding-top: .25rem;
-          //list-style-type: circle;
       }
       li {
         list-style-type: circle;
@@ -118,7 +113,6 @@
   }
 
   &--left {
-    flex: 4;
     flex-direction: column;
     height: 100%;
     display: flex;
@@ -127,12 +121,10 @@
     overflow: hidden;
 
     img {
-      width: 200px;
-      //width: 100%;
-      height: 200px;
+      width: 70%;
+      height: 18.75rem;
       margin-top: 1rem;
       margin-bottom: .25rem;
-      //transform: rotate(-10deg);
     }
   }
 
@@ -146,41 +138,42 @@
     opacity: 1;
     width: 80%;
 
-    @media screen and (max-width: 600px) {
-        width: 100%;
-      }
+    @include media(mobile){
+      width: 100%;
+      flex-direction: column;
+    }
   }
 }
 
 .right-arrow {
     position: absolute;
-    top: 50%;
-    right: 32px;
+    top: 19%;
+    right: 0rem;
     font-size: 3rem;
     color: #000;
     z-index: 10;
     cursor: pointer;
     user-select: none;
 
-    @media screen and (max-width: 600px) {
-        top: 19%;
-        right: 0rem;
-    }
+    @include media(tablet){
+      top: 50%;
+      right: 0rem;
+  }
 }
 
 .left-arrow {
     position: absolute;
-    top: 50%;
-    left: 32px;
+    top: 19%;
+    left: 0rem;
     font-size: 3rem;
     color: #000;
     z-index: 10;
     cursor: pointer;
     user-select: none;
 
-    @media screen and (max-width: 600px) {
-        top: 19%;
-        left: 0rem;
+    @include media(tablet){
+      top: 50%;
+      left: 0px
     }
 }
 

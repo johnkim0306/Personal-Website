@@ -22,15 +22,26 @@ $color-background-variant: #f9f9f9;
 
 $transition: all 0.3s ease-in-out;
 
-//Media Query
+// Media Query
 $container-width-lg: 75%;
 $container-width-md: 86%;
 $container-width-sm: 90%;
 
-$width: 600px;
+$mobile-width: 600px;
+$pc-width: 1024px;
 
-@mixin mobile {
-    @media (max-width: #{$width}){
-        @content
+// map holding breakpoint values
+$breakpoints: (
+  mobile : 375px, 
+  tablet : 768px, 
+  desktop: 1024px
+);
+
+// mixin to print out media queries (based on map keys passed) 
+@mixin media($keys...) {
+    @each $key in $keys {
+        @media screen and (min-width: map-get($breakpoints, $key)) {
+            @content
+        }
     }
 }
