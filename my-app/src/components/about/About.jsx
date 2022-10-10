@@ -72,9 +72,15 @@ const About = () => {
                         </div>
                         <div className="about__content--right">
                             <p>
-                            I am a recent graduate with a degree in computer science with a passion for developing an application that impacts people!
-                        I have experience creating and improving applications in a team that follows a fast-paced agile environment, and I have previousely worked independently building
-                       an application using test-driven development methodology to help engineers with execution and data post-processing.
+                            I am a recent graduate with a degree in computer science from the University of Calgary. 
+                            I am passionate about developing an application that impacts people! 
+                            I have worked with several companies while completing co-op programs and became very familiar
+                            with the software development process and its stages. 
+                            I have experience creating, maintaining, and improving applications in a team that follows a 
+                            fast-paced agile development where I deliver features to the users they can interact with.
+                            I feel pretty comfortable working by myself and taking responsibilities of my code where 
+                            I have previous experience working as a full-stack developer worked with internal and external stackeholders
+                            to transform product requirement into detail design and releasing the end product.
                             </p>
                     </div>
                     </div>

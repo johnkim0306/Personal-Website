@@ -41,14 +41,14 @@ const Work = () => {
                                 alt=""
                             />
                             <h3>{experience.company}</h3>
+                            <h3>{experience.date}</h3>
                         </div>
                         <div className="slide--right">
                             <div className="rightContainer">
                                 <div className="imgContainer">
                                     <img src={mobile} alt="" />
+                                    <h2>{experience.title}</h2>
                                 </div>
-                                <h2>{experience.title}</h2>
-                                <h3>{experience.date}</h3>
                                 <ul>
                                     <li>{experience.desc1}</li>
                                     <li>{experience.desc2}</li>

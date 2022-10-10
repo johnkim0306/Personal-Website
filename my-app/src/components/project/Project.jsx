@@ -51,7 +51,7 @@ const Project = () => {
                     <div className="slider" style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
                             <div className="item">
                                 <div className="item__header">
-                                    <h1>Covid React tracker</h1>
+                                    <h1>Project</h1>
                                     <h2>2022.02 (Personal Project)</h2>
                                 </div>
                                 <div className="item__content">
@@ -62,7 +62,7 @@ const Project = () => {
                                         <div className="rightContainer">
                                             <div className="imgContainer">
                                                 <img src={mobile}></img>
-                                                <span>Project</span>
+                                                <h3>Covid React tracker</h3>
                                             </div>
                                             <ul>
                                                 <li>Single-Page application react was used to create an application and renders components when data changes. Material-UI was used to construct the user interface.</li>

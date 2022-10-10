@@ -5,8 +5,31 @@
     width: 100%;
     height: fit-content;
     
-    h2,h5 {
+    h2 {
         text-align: center;
+
+        @include media(desktop){
+            font-size: 4rem;
+        }
+    }
+
+    h3 {
+        text-align: center;
+
+        @include media(desktop){
+            font-size: 1.5rem;
+        }
+    }
+
+    h4,h5,a {
+        @media screen and (min-width: 1300px) {
+            font-size: 1.5rem;
+        }
+    }
+
+    @include media(desktop){
+        margin-top: 0rem;
+        height: auto;
     }
 }
 .container.contact__container {
@@ -16,6 +39,7 @@
     grid-template-columns: 30% 58%;
     gap: 12%;
     padding-top: 3rem;
+    align-items: center;
 }
 
 .contact__options {
@@ -63,7 +87,10 @@ form {
         background: transparent;
         border: 2px solid $color-primary-variant;
         resize: none;
-        color: $color-white;
+
+        @include media(desktop){
+            font-size: 1.5rem;
+        }
     }
 
     button {
