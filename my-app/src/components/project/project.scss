@@ -99,7 +99,7 @@
           display: list-item;
           padding-top: .25rem;
 
-          @include media(desktop){
+          @media (min-width: 1024px)  and (min-height: 830px) {
             font-size: 1.5rem;
           }
         }
