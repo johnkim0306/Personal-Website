@@ -22,7 +22,7 @@
         font-weight: 400;
         color: white;
 
-        @include media(desktop){
+        @media (min-width: 1024px)  and (min-height: 830px) {
             font-size: 3.5rem;
         }
     }
@@ -53,8 +53,8 @@
     display: flex;
     justify-content: center;
     background: linear-gradient($color-primary, #80caff);
-    width: 17rem;
-    height: 24rem;
+    width: 12rem;
+    height: 20rem;
     margin-top: 1rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;

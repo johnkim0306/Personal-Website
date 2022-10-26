@@ -131,10 +131,16 @@
 
     img {
       width: 70%;
-      height: 18.75rem;
+      height: 10.75rem;
       margin-top: 1rem;
       margin-bottom: .25rem;
     }
+
+    @media (min-width: 1024px)  and (min-height: 1100px) {
+      height: 18.75rem;
+    }
+
+    
   }
 
   &__active-anim {

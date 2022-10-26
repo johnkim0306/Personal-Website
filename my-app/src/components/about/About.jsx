@@ -71,7 +71,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="about__content--right">
-                            <p>
+
                             I am a recent graduate with a degree in computer science from the University of Calgary. 
                             I am passionate about developing an application that impacts people! 
                             I have worked with several companies while completing co-op programs and became very familiar
@@ -81,7 +81,7 @@ const About = () => {
                             I feel pretty comfortable working by myself and taking responsibilities of my code where 
                             I have previous experience working as a full-stack developer worked with internal and external stackeholders
                             to transform product requirement into detail design and releasing the end product.
-                            </p>
+
                     </div>
                     </div>
 
