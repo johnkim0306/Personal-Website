@@ -31,7 +31,8 @@
       line-height: 1.5;
       margin-bottom: 1rem;
 
-      @media (min-width: 1024px)  and (min-height: 1100px) {
+
+      @include media2(desktop, desktopHeight){
         font-size: 5rem;
       }
   }
@@ -70,8 +71,9 @@
   justify-content: center;
 
   &--right {
-    flex: 5;
+    //flex: 5;
     height: 100%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -116,7 +118,7 @@
       }
     }
 
-    @media (min-width: 1024px)  and (min-height: 1100px) {
+    @include media2(desktop, desktopHeight){
       font-size: 1.5rem;
     }
   }
@@ -124,6 +126,7 @@
   &--left {
     flex-direction: column;
     height: 100%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -136,11 +139,9 @@
       margin-bottom: .25rem;
     }
 
-    @media (min-width: 1024px)  and (min-height: 1100px) {
+    @include media2(desktop, desktopHeight){
       height: 18.75rem;
     }
-
-    
   }
 
   &__active-anim {
@@ -155,7 +156,7 @@
 
     @include media(mobile){
       width: 100%;
-      flex-direction: column;
+      //flex-direction: column;
     }
   }
 }

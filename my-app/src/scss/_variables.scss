@@ -34,7 +34,8 @@ $pc-width: 1024px;
 $breakpoints: (
   mobile : 375px, 
   tablet : 768px, 
-  desktop: 1024px
+  desktop: 1024px,
+  desktopHeight: 830px
 );
 
 // mixin to print out media queries (based on map keys passed) 
@@ -45,3 +46,18 @@ $breakpoints: (
         }
     }
 }
+
+@mixin media2($keys...) {
+    @each $key, $height in $keys {
+        @media screen and (min-width: map-get($breakpoints, $key)) and (min-height: map-get($breakpoints, $height)) {
+            @content
+        }
+    }
+}
+
+
+
+
+
+
+

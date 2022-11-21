@@ -71,18 +71,8 @@ const About = () => {
                             </div>
                         </div>
                         <div className="about__content--right">
-
-                            I am a recent graduate with a degree in computer science from the University of Calgary. 
-                            I am passionate about developing an application that impacts people! 
-                            I have worked with several companies while completing co-op programs and became very familiar
-                            with the software development process and its stages. 
-                            I have experience creating, maintaining, and improving applications in a team that follows a 
-                            fast-paced agile development where I deliver features to the users they can interact with.
-                            I feel pretty comfortable working by myself and taking responsibilities of my code where 
-                            I have previous experience working as a full-stack developer worked with internal and external stackeholders
-                            to transform product requirement into detail design and releasing the end product.
-
-                    </div>
+                            I am a recent graduate with a degree in computer science from the University of Calgary. I am passionate about developing an application that impacts people! I have worked with several teams and became very familiar with the software development process and its stages. I have experience with building applications  in a team that follows a fast-paced agile development. My job stretched from fixing bugs, built features, to working closely with stakeholders to transform product requirements into detailed designs and releasing the end product. I am comfortable working in a team-based environment or indepedently as I have previous experience with it. I take ownership of my work and am accountable for the quality and timeliness of an outcome.
+                        </div>
                     </div>
 
                 </div>
