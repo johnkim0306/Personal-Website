@@ -39,21 +39,20 @@ $breakpoints: (
 );
 
 // mixin to print out media queries (based on map keys passed) 
-@mixin media($keys...) {
-    @each $key in $keys {
+
+
+@mixin media($key, $height:"") {
+    @if $height != "" {
+        @media screen and (min-width: map-get($breakpoints, $key)) and (min-height: map-get($breakpoints, $height)) {
+            @content
+        }
+    } @else {
         @media screen and (min-width: map-get($breakpoints, $key)) {
             @content
         }
     }
 }
 
-@mixin media2($keys...) {
-    @each $key, $height in $keys {
-        @media screen and (min-width: map-get($breakpoints, $key)) and (min-height: map-get($breakpoints, $height)) {
-            @content
-        }
-    }
-}
 
 
 

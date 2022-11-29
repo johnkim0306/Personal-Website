@@ -58,15 +58,11 @@
         }
 
         @include media(mobile){
-            font-size: 1rem
+            font-size: 1rem;
         }
 
-        @include media2(tablet, desktopHeight){
-            font-size: 1.25rem
-        }
-
-        @include media2(desktop, desktopHeight){
-            font-size: 1.5rem
+        @include media(tablet, desktopHeight){
+            font-size: 1.25rem;
         }
     }
 
