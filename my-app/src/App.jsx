@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.scss'
 import { useState } from "react";
-import {Home, Nav, About, Contact, Work, Menu, Project, Footer} from './components';
+import {Home, Background, Nav, About, Contact, Work, Menu, Project, Footer} from './components';
 
 const App = () => {
     const [menuOpen, setMenuOpen] = useState(false);
