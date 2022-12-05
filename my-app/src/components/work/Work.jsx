@@ -25,7 +25,7 @@ const Work = () => {
   }
 
   return (
-    <section className="works" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-out-cubic" data-aos-duration="3000" data-aos-once="false" data-aos-mirror="true">
+    <section className="works" data-aos="zoom-in" data-aos-offset="200" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-once="false" data-aos-mirror="true">
         <FaArrowCircleLeft className="left-arrow" onClick={prevSlide} />
         <FaArrowCircleRight className="right-arrow" onClick={nextSlide} />
         <div className="works__header">

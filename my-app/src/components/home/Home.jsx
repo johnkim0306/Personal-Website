@@ -14,13 +14,13 @@ const Home = () => {
 
     return (
             <div className="container home__container">
-                <div className="intro" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-out-cubic" data-aos-duration="3000" data-aos-once="false" data-aos-mirror="true">
+                <div className="intro" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-once="false" data-aos-mirror="true">
                     <h5>Hello I'm </h5>
                     <h1>John Kim</h1>
                     <h5 className="text-light"> Frontend Developer</h5>
                     <hr/>
                 </div>
-                <div className="me" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-out-cubic" data-aos-duration="3000" data-aos-once="false" data-aos-mirror="true">
+                <div className="me" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-once="false" data-aos-mirror="true">
                     <img src={Me} alt="me" />
                 </div>
 
