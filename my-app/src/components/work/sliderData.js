@@ -6,7 +6,7 @@ const SliderData = [
       title: "Frontend Developer",
       date: "May 2021 - August 2022",
       desc1: "Designed and implemented multiple enterprise-level microservice applications of Home team, increased the annual revenue by 64% using the latest technologies of Vue.js, JavaScript, SASS, FTL, and XML.",
-      desc2: " Implemented new components to an existing web application with a Mobile-First code that reaches 150M+ users each month. Resulting in an increase in mobile traffic by 11%.",
+      desc2: "Implemented new components to an existing web application with a Mobile-First code that reaches 150M+ users each month. Resulting in an increase in mobile traffic by 11%.",
       desc3: "Refactored existing features into Vanilla JS, including a redesign of the UI and code refactoring, reduced errors, and improved performance across the entire code base.",
       desc4: "Continuous Integration/Deployment pipeline(Jenkins), Code Reviews, Integration, E2E Testing.",
       img: "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",

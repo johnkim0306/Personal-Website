@@ -24,7 +24,7 @@ const About = () => {
     const imgRef = useRef(null);
     useEffect(() => {
         const el = imgRef.current;
-        gsap.fromTo(el, {rotation: 0}, {rotation: 360, duration: 3, scrollTrigger: {
+        gsap.fromTo(el, {rotation: 0}, {rotation: 360, duration: 1, scrollTrigger: {
             trigger: el
         }})
 
