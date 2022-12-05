@@ -57,7 +57,7 @@ const Container = styled.div`
 
 const Project = () => {
     return (
-            <section id='project'>
+            <section id='project' data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-out-cubic" data-aos-duration="3000" data-aos-once="false" data-aos-mirror="true">
                 <div className="container project__container">
                     <Container>
                         <Title text="Projects.">Projects.</Title>

@@ -8,10 +8,10 @@ import {BsWhatsapp} from 'react-icons/bs'
 const Contact = () => {
     return (
             <section id='contact'>
-                <h2>Contact Me</h2>
-                <h3>Let's Keep in Touch</h3>
+                <h2 data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-out-cubic" data-aos-duration="3000" data-aos-once="false" data-aos-mirror="true">Contact Me</h2>
+                <h3 data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-out-cubic" data-aos-duration="3000" data-aos-once="false" data-aos-mirror="true">Let's Keep in Touch</h3>
                 <div className="container contact__container">
-                    <div className="contact__options">
+                    <div className="contact__options" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-out-cubic" data-aos-duration="3000" data-aos-once="false" data-aos-mirror="true">
                         <article className="contact__option">
                             <MdOutlineEmail className='contact__option-icon' />
                             <h4>Email</h4>
@@ -31,7 +31,7 @@ const Contact = () => {
                             <a href="https://api.whatsapp.com/send?phone+15877773519">Send a message</a>
                         </article>
                     </div>
-                    <form action="">
+                    <form action="" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-out-cubic" data-aos-duration="3000" data-aos-once="false" data-aos-mirror="true">
                         <input type="text" name='name' placeholder="Your Full Name" required />
                         <input type="email" name='email' placeholder="Your Email" required />
                         <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
