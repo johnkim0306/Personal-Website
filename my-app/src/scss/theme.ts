@@ -12,8 +12,8 @@ export const theme: DefaultTheme = {
     red: "#C84B31",
     baige: "#ECDBBA",
 
-    neonBlue: "#001AFF",
-    neonGreen: "#00FF94",
+    neonBlue: "#2c3fe9",
+    neonGreen: "#00f18c",
   },
 };
 

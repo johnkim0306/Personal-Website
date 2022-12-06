@@ -30,7 +30,6 @@ const About = () => {
 
     }, [])
 
-
     return (
             <section className='about' ref={imgRef}>
                 <div className="container about__container">   

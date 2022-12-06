@@ -5,12 +5,13 @@
     width: 100%;
     height: fit-content;
     background: $color-background-variant;
+    border-radius: 10rem;
     
     h2 {
         text-align: center;
 
         @media (min-width: 1024px)  and (min-height: 830px) {
-            font-size: 4rem;
+            font-size: 6rem;
         }
     }
 

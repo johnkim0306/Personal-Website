@@ -11,7 +11,7 @@ import trackerImage from '../../assets/trackerImage.png'
 import './project.scss'
 
 const Title = styled.div<{ text: string }>`
-  color: #00FF94;
+  color: #00f18c;
   position: absolute;
   box-sizing: border-box;
   font-size: 8rem;
@@ -27,7 +27,7 @@ const Title = styled.div<{ text: string }>`
     content: "${({ text }) => `${text}`}";
     position: absolute;
     color: transparent;
-    -webkit-text-stroke: 0.1rem #001AFF;
+    -webkit-text-stroke: 0.1rem #2c3fe9;
     top: -0.4rem;
     left: -0.4rem;
   }

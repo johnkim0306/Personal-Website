@@ -138,11 +138,11 @@ const Container = styled.div`
   }
   .green-container {
     margin-right: 30rem;
-    border: 0.1rem solid #00FF94;
+    border: 0.1rem solid #00f18c;
     .title {
       color: #000;
-      background-color: #00FF94;
-      border: 0.1rem solid #00FF94;
+      background-color: #00f18c;
+      border: 0.1rem solid #00f18c;
       left: -3rem;
       transform: rotate(-10deg);
     }
@@ -150,13 +150,13 @@ const Container = styled.div`
       right: 2rem;
     }
     .intro {
-      color: #00FF94;
+      color: #00f18c;
     }
     .svg {
-      fill: #00FF94;  
+      fill: #00f18c;  
     }
     .icons {
-      color: #00FF94;
+      color: #00f18c;
     }
     ${media.mobile} {
       margin-right: 0;
@@ -164,11 +164,11 @@ const Container = styled.div`
   }
   .blue-container {
     margin-left: 30rem;
-    border: 0.1rem solid #001AFF;
+    border: 0.1rem solid #2c3fe9;
     .title {
       color: #fff;
-      background-color: #001AFF;
-      border: 0.1rem solid #001AFF;
+      background-color: #2c3fe9;
+      border: 0.1rem solid #2c3fe9;
       left: -3rem;
       transform: rotate(-10deg);
     }
@@ -176,10 +176,10 @@ const Container = styled.div`
       right: 2rem;
     }
     .intro {
-      color: #001AFF;
+      color: #2c3fe9;
     }
     .svg {
-      fill: #001AFF;
+      fill: #2c3fe9;
     }
     ${media.mobile} {
       margin-left: 0;
