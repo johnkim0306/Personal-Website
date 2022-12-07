@@ -19,8 +19,8 @@ const Title = styled.div<{ text: string }>`
   left: 10rem;
   width: 100%;
   ${media.mobile} {
-    font-size: 6rem;
-    left: 5rem;
+    font-size: 4rem;
+    left: 0rem;
     top: 1rem;
   }
   ::after {
@@ -50,7 +50,8 @@ const Container = styled.div`
       color: white;
     }
     ${media.mobile} {
-      padding: 7rem 4rem;
+      padding: 1rem 1rem;
+      font-size: .6rem;
     }
   }
 `;

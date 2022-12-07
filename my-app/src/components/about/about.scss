@@ -55,6 +55,7 @@
         &--right {
             width: 50%;
             padding: 1rem;
+            overflow: scroll;
         }
 
         @include media(mobile){

@@ -92,6 +92,7 @@ const Container = styled.div`
       ${media.mobile} {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        font-size: .6rem;
         &__skill {
           margin-right: 0.5rem;
           margin-top: 0.3rem;
@@ -119,9 +120,6 @@ const Container = styled.div`
       position: absolute;
       bottom: -1rem;
       right: 2rem;
-      ${media.mobile} {
-        bottom: -2.5rem;
-      }
     }
     .svg {
       cursor: pointer;
@@ -145,9 +143,12 @@ const Container = styled.div`
       border: 0.1rem solid #00f18c;
       left: -3rem;
       transform: rotate(-10deg);
+      ${media.mobile} {
+        left: -1rem;
+      }
     }
     .date {
-      right: 2rem;
+      right: 0rem;
     }
     .intro {
       color: #00f18c;
@@ -159,7 +160,8 @@ const Container = styled.div`
       color: #00f18c;
     }
     ${media.mobile} {
-      margin-right: 0;
+      margin-right: 0rem;
+      width: 100%
     }
   }
   .blue-container {
@@ -171,6 +173,9 @@ const Container = styled.div`
       border: 0.1rem solid #2c3fe9;
       left: -3rem;
       transform: rotate(-10deg);
+      ${media.mobile} {
+        left: -1rem;
+      }
     }
     .date {
       right: 2rem;

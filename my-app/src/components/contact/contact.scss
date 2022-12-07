@@ -5,7 +5,11 @@
     width: 100%;
     height: fit-content;
     background: $color-background-variant;
-    border-radius: 10rem;
+    border-radius: 2rem;
+
+    @include media(tablet){
+        border-radius: 10rem;
+    }
     
     h2 {
         text-align: center;

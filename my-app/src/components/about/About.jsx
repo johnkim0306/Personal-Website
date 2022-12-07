@@ -4,7 +4,7 @@ import './about.scss'
 import Background from '../Background.tsx';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useRef, useEffect, useState } from "react";
+import { useRef, useEffect} from "react";
 import TextSlider from "./TextSlider";
 import ProgressBar from "./ProgressBar";
 import Intro from "./Intro";
