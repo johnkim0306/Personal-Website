@@ -1,24 +1,13 @@
 import React from 'react'
 import { AppWrap } from "../../wrapper";
 import './about.scss'
-import Background from '../Background.tsx';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useRef, useEffect} from "react";
 import TextSlider from "./TextSlider";
 import ProgressBar from "./ProgressBar";
 import Intro from "./Intro";
-import styled from "styled-components";
 gsap.registerPlugin(ScrollTrigger);
-
-const Bold = styled.span`
-  font-weight: 700;
-  font-size: 1.3rem;
-  margin-left: 0.3rem;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-`;
 
 const About = () => {
     const imgRef = useRef(null);
