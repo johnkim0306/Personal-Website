@@ -4,11 +4,18 @@ import { BiCurrentLocation } from "react-icons/bi";
 import { MdEmail } from "react-icons/md";
 import { FaUniversity } from "react-icons/fa";  
 import styled from "styled-components";
+import { media } from "../../scss/theme";
 
 const TextBox = styled.div`
   white-space: pre-line;
   line-height: 230%;
   font-size: 1.1rem;
+  ${media.mobile} {
+    font-size: 1.3rem;
+    line-height: 200%;
+    font-weight: 700;
+    padding-left: 7rem;
+  }
 `;
 
 const Bold = styled.span`
@@ -19,6 +26,10 @@ const Bold = styled.span`
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  ${media.mobile} {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
 `;
 
 const Intro = () => {
