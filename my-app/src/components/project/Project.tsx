@@ -11,17 +11,17 @@ import trackerImage from '../../assets/trackerImage.png'
 import './project.scss'
 
 const Title = styled.div<{ text: string }>`
+  font-size: 4rem;
+  left: 0rem;
+  top: 1rem;
   color: #00f18c;
   position: absolute;
   box-sizing: border-box;
-  font-size: 8rem;
   font-weight: 800;
-  left: 10rem;
   width: 100%;
-  ${media.mobile} {
-    font-size: 4rem;
-    left: 0rem;
-    top: 1rem;
+  ${media.tablet} {
+    font-size: 8rem;
+    left: 10rem;
   }
   ::after {
     content: "${({ text }) => `${text}`}";
@@ -40,18 +40,18 @@ const Container = styled.div`
   .contents {
     margin-top: 5rem;
     //background-color: #000;
-    padding: 8rem;
-    padding-bottom: 20rem;
+    padding: 1rem 1rem;
     display: flex;
+    font-size: .6rem;
     flex-direction: column;
     &__content {
       padding-top: 5rem;
       width: 100%;
       color: white;
     }
-    ${media.mobile} {
-      padding: 1rem 1rem;
-      font-size: .6rem;
+    ${media.tablet} {
+      padding: 8rem;
+      padding-bottom: 20rem;
     }
   }
 `;

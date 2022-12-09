@@ -1,4 +1,5 @@
 import styled, { keyframes } from "styled-components";
+import { media } from "../../scss/theme";
 
 const slide = keyframes`
 0% {
@@ -89,7 +90,7 @@ const SlideAnimation = styled.div`
 
 
 const Slide = styled.div`
-  font-size: 4.5rem;
+  font-size: 1.5rem;
   font-weight: 800;
   padding-left: 4%;
   width: 100%;
@@ -98,6 +99,9 @@ const Slide = styled.div`
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+  ${media.tablet} {
+    font-size: 4.5rem;
   }
 `;
 

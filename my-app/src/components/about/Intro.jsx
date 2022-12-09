@@ -7,29 +7,31 @@ import styled from "styled-components";
 import { media } from "../../scss/theme";
 
 const TextBox = styled.div`
-  white-space: pre-line;
-  line-height: 230%;
-  font-size: 1.1rem;
-  ${media.mobile} {
-    font-size: 1.3rem;
+    font-size: .875rem;
     line-height: 200%;
     font-weight: 700;
-    padding-left: 7rem;
-  }
+    ${media.tablet} {
+        white-space: pre-line;
+        line-height: 230%;
+        font-size: 1.1rem;
+        padding-left: 7rem;
+    }
 `;
 
 const Bold = styled.span`
-  font-weight: 700;
-  font-size: 1.3rem;
-  margin-left: 0.3rem;
-  background: linear-gradient(128.93deg, rgb(0, 173, 181) 22.41%, rgb(57, 62, 70) 93.45%) ;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  ${media.mobile} {
     font-size: 1.5rem;
     font-weight: 800;
-  }
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-left: 0.3rem;
+    background: linear-gradient(128.93deg, rgb(0, 173, 181) 22.41%, rgb(57, 62, 70) 93.45%) ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    ${media.tablet} {
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
 `;
 
 const Intro = () => {

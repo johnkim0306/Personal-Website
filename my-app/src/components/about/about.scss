@@ -26,15 +26,19 @@
 
         &--info {
             display: flex;
-            margin-bottom: 2rem;
+            margin-bottom: .5rem;
             background-color: rgb(57, 62, 70);
             width: 100%;
             align-items: center;
-            padding: 0.8rem 2rem;
+            padding: 0.8rem 1rem;
             border-radius: 2rem;
             border: 0.5rem solid rgb(238, 238, 238);
             cursor: pointer;
 
+            @include media(tablet){
+                margin-bottom: 2rem;
+                padding: 0.8rem 2rem;
+            }
 
             svg {
                 min-height: 100%;
@@ -48,14 +52,23 @@
         }
 
         &--left {
-            width: 50%;
+            width: 100%;
             padding: 1rem;
+
+            @include media(tablet){
+                width: 50%;
+            }
         }
 
         &--right {
-            width: 50%;
+            width: 100%;
             padding: 1rem;
-            overflow: auto;
+
+            @include media(tablet){
+                width: 50%;
+                padding: 1rem;
+                overflow: auto;
+            }
         }
 
         @include media(mobile){
@@ -68,16 +81,26 @@
     }
 
     &__icon {
-        width: 3rem;
-        height: 3rem;
+        width: 2rem;
+        height: 2rem;
         color: $color-white;
         margin-right: 1rem;
+
+        @include media(tablet, desktopHeight){
+            width: 3rem;
+            height: 3rem;
+        }
     }
 
     &__field {
         display: flex;
         flex-direction: column;
         color: $color-white;
+        font-size: .875rem;
+
+        @include media(tablet, desktopHeight){
+            font-size: 1rem;
+        }
 
         &--value {
             @media screen and (max-width: 1024px) {
