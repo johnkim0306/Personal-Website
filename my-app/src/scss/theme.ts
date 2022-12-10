@@ -18,7 +18,7 @@ export const theme: DefaultTheme = {
 };
 
 const customMediaQuery = (minWidth: number): string =>
-  `@media (min-width: ${minWidth}px)`;
+  `@media (min-width: ${minWidth}px) and (min-height: 830px)`;
 
 export const media = {
   custom: customMediaQuery,
