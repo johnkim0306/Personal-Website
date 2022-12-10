@@ -34,7 +34,7 @@ const Title = styled.div<{ text: string }>`
 `;
 const Container = styled.div`
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
   margin-top: 10rem;
   box-sizing: border-box;
   .contents {
