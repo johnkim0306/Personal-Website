@@ -1,8 +1,6 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import { AppWrap } from "../../wrapper/";
 import mobile from "../../assets/mobile.png";
-import arrow from "../../assets/arrow.png";
 import sliderData from './sliderData';
 import "./work.scss";
 import { FaArrowCircleRight, FaArrowCircleLeft } from "react-icons/fa";
@@ -12,22 +10,14 @@ const Work = () => {
 
   const length = sliderData.length;
 
-  const nextSlide = () => {
-    setCurrentSlide(currentSlide === length - 1 ? 0 : currentSlide + 1);
+  const moveSlide = index => {
+    setCurrentSlide(index);
   };
-
-  const prevSlide = () => {
-    setCurrentSlide(currentSlide === 0 ? length -1 : currentSlide -1);
-  };
-
-  const moveDot = index => {
-    setCurrentSlide(index -1);
-  }
 
   return (
     <section className="works" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-once="false" data-aos-mirror="true">
-        <FaArrowCircleLeft className="left-arrow" onClick={prevSlide} />
-        <FaArrowCircleRight className="right-arrow" onClick={nextSlide} />
+        <FaArrowCircleLeft className="left-arrow" onClick={() => moveSlide(currentSlide === 0 ? length - 1 : currentSlide - 1)} />
+        <FaArrowCircleRight className="right-arrow" onClick={() => moveSlide(currentSlide === length - 1 ? 0 : currentSlide + 1)} />
         <div className="works__header">
             <div className="title">Experience</div>
         </div>
@@ -58,24 +48,15 @@ const Work = () => {
                                 <p>{experience.desc}</p>
                             </div>
                         </div>
-
-                        <div className="container-dots">
-                            {Array.from({length: 4}).map((item, index) => (
-                                <div 
-                                onClick={ () => moveDot(index + 1)}
-                                className={currentSlide === index ? "dot active" : "dot"}
-                                ></div>
-                            ))}
-                        </div>
                     </div>
             )
         })}
 
         <div className="container-dots">
-            {Array.from({length: 4}).map((item, index) => (
+            {sliderData.map((_, index) => (
                 <div 
-                onClick={ () => moveDot(index + 1)}
-                className={currentSlide === index ? "dot active" : "dot"}
+                    onClick={() => moveSlide(index)}
+                    className={currentSlide === index ? "dot active" : "dot"}
                 ></div>
             ))}
         </div>

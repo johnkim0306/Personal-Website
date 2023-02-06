@@ -5,13 +5,12 @@ import { media } from "../../scss/theme";
 
 const ProjectBox = ({ project, idx }) => {
   const isEven = (idx + 1) % 2 === 0;
+  const dataAos = isEven ? "flip-right" : "flip-left";
+  const containerClass = isEven ? "blue-container" : "green-container";
+
   return (
-    <Container data-aos={isEven ? "flip-right" : "flip-left"}>
-      <div
-        className={
-          isEven ? "container blue-container" : "container green-container"
-        }
-      >
+    <Container data-aos={dataAos}>
+      <div className={`container ${containerClass}`}>
         <div className="title">{project.title}</div>
         <div className="date">{project.date}</div>
         <div className="skills">

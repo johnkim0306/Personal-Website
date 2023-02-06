@@ -1,7 +1,7 @@
 import React from 'react'
 import './menu.scss'
 
-function Menu({ menuOpen, setMenuOpen }) {
+const Menu = ({ menuOpen, setMenuOpen }) => {
     return (
         <div className={"menu " + (menuOpen && "active")}>
             <ul>

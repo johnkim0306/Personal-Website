@@ -3,7 +3,7 @@ const SliderData = [
       id: "1",
       icon: "./assets/dotdash.webp",
       company: "Dotdash",
-      title: "Frontend Developer",
+      title: "Fullstack Developer",
       date: "May 2021 - August 2022",
       desc1: "Designed and implemented multiple enterprise-level microservice applications of Home team, increased the annual revenue by 64% using the latest technologies of Vue.js, JavaScript, SASS, FTL, and XML.",
       desc2: "Implemented new components to an existing web application with a Mobile-First code that reaches 150M+ users each month. Resulting in an increase in mobile traffic by 11%.",

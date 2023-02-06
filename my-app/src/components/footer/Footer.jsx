@@ -12,10 +12,10 @@ const Footer = () => {
                             <a href="https://www.facebook.com/profile.php?id=100000925471875"> <FaFacebookF /></a>
                         </div>
                         <div className="footer__icon">
-                            <a href="https://www.linkedin.com/in/john-k-51a119129/" target="_blank"> <BsLinkedin /></a>
+                            <a href="https://www.linkedin.com/in/john-k-51a119129/" target="_blank" rel="noopener noreferrer"> <BsLinkedin /></a>
                         </div>
                         <div className="footer__icon">
-                            <a href="https://github.com/johnkim0306" target="_blank"> <FaGithub /></a>
+                            <a href="https://github.com/johnkim0306" target="_blank" rel="noopener noreferrer"> <FaGithub /></a>
                         </div>
                     </div>
                 </div>

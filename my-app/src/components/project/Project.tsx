@@ -3,11 +3,7 @@ import styled from "styled-components";
 import { media } from "../../scss/theme";
 import { projects } from "./data";
 import ProjectBox from "./ProjectBox";
-import { useState } from "react";
 import { AppWrap } from '../../wrapper';
-import mobile from '../../assets/mobile.png'
-import arrow from '../../assets/arrow.png'
-import trackerImage from '../../assets/trackerImage.png'
 import './project.scss'
 
 const Title = styled.div<{ text: string }>`
@@ -64,8 +60,8 @@ const Project = () => {
                         <Title text="Projects.">Projects.</Title>
                         <div className="contents">
                             {projects.map((project, idx) => (
-                            <div className="contents__content">
-                                <ProjectBox {...{ project, idx }} key={idx.toString()} />
+                            <div className="contents__content" key={idx.toString()}>
+                                <ProjectBox {...{ project, idx }} />
                             </div>
                             ))}
                         </div>

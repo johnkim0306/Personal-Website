@@ -47,39 +47,19 @@ const slide = keyframes`
 }
 `;
 
+const texts = ['Frontend',  'React',  'HTML / CSS',  'Javascript',  'Typescript'];
+
 const TextSlider = () => (
-  <SlideContainer>
-    <div
-      style={{
-        width: "100%",
-        overflow: "hidden",
-      }}
-    >
-      <SlideAnimation>
-        <Slide>
-          <span className="__text">Frontend</span>
+  <div style={{width: "100%", overflow: "hidden"}}>
+    <SlideAnimation>
+      {texts.map(text => (
+        <Slide key={text}>
+          <span className="__text">{text}</span>
         </Slide>
-        <Slide>
-          <span className="__text">React</span>
-        </Slide>
-        <Slide>
-          <span className="__text">HTML / CSS</span>
-        </Slide>
-        <Slide>
-          <span className="__text">Javascript</span>
-        </Slide>
-        <Slide>
-          <span className="__text">Typescript</span>
-        </Slide>
-      </SlideAnimation>
-    </div>
-  </SlideContainer>
+      ))}
+    </SlideAnimation>
+  </div>
 );
-
-const SlideContainer = styled.div`
-  width: 100%;
-
-`;
 
 const SlideAnimation = styled.div`
   width: 500%;
@@ -87,7 +67,6 @@ const SlideAnimation = styled.div`
   display: flex;
   animation: ${slide} 20s infinite;
 `;
-
 
 const Slide = styled.div`
   font-size: 1.5rem;
