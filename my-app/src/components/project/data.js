@@ -34,5 +34,20 @@ export const projects = [
         "Confirmed cross browser testing.",
         "Implemented responsive website using media queries.",
     ],
+},
+{
+    title: "Take a Note",
+    date: "2023.01 ~ 2023.02",
+    skills: ["React", "JavaScript", "Sass"],
+    website:"https://simplenoteapp.netlify.app",
+    github: "https://github.com/johnkim0306/TodoList",
+    about:
+    "Noteapp with WebSpeech Api enabling users to add notes by their voices ",
+    contents: [
+        "This is a voice-enabled memo application that allows users to easily create and store notes using their voice.",
+        "Implemented the JavaScript Web Speech API to enable users to effortlessly create and listen to their memos by speaking.",
+        "Implemented local storage functionality for the app",
+        "Implemented responsive website."
+    ],
 }
 ];
